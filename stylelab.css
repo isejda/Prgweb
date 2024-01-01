@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(242, 242, 242);
+}
+header{
+    font-family: "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color:rgb(242, 242, 242);
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: trooper_jazzeriniregular;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+.content header {
+    font-family: trooper_jazzeriniregular;
+    font-size: 60px;
+    text-align: center;
+    font-weight: initial;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 800px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: rgb(242, 242, 242);
+    color: #000000;
+    font-family: "Book Antiqua";
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ddd;
+    border-color: #0f151a;
+
+}
+
+
+.youtube-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.youtube-link img {
+    width: 600px;
+    height: 380px;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.social{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 65px;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+
+.social a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 40px;
+
+}
+
+form {
+    background-color: rgb(242, 242, 242);;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+label {
+    display:block;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: trooper_jazzeriniregular;
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+    font-family: trooper_jazzeriniregular;
+    width: calc(100% - 600px);
+    margin: 0.4rem;
+    padding: 8px;
+    /*margin-bottom: 16px;*/
+    /*margin-right: 8px;*/
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(242, 242, 242);
+    color: #000000;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: trooper_jazzeriniregular;
+    /* display: inline-block;
+     text-decoration: none;
+     font-family: "Book Antiqua";
+     font-size: 20px;
+     font-weight: bold;
+
+     transition: background-color 0.3s ease;*/
+}
+
+button:hover {
+    background-color: #ddd;
+    border-color: #0f151a;
+
+}
+
+#footer {
+
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    height: 40px;
+    background: rgb(242, 242, 242);
+}
